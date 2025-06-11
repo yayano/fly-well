@@ -33,8 +33,8 @@ const config = {
         "accordion-up": "accordion-up 0.2s ease-out",
       },
       colors: {
-        primary: "#DF6951",
-        secondary: "#F1A501",
+        primary: "#2CA05A",
+        secondary: "#666666",
         lightBlue: "#181E4B",
         lightGray: "#5E6282",
         lightGrayAlt: "#686D77",

@@ -23,27 +23,27 @@ function NavBar() {
             <p
               className={`hover:text-primary text-navText font-[600] cursor-pointer flex items-center gap-2`}
             >
-              Destinations
+              Acceuil
             </p>
             <p
               className={`hover:text-primary text-navText font-[600] cursor-pointer flex items-center gap-2`}
             >
-              Hotels
+              Services
             </p>
             <p
-              className={`hover:text-primary text-navText font-[600] cursor-pointer flex items-center gap-2`}
+              className={`hover:text-white text-navText font-[600] cursor-pointer flex items-center gap-2`}
             >
-              Flights
+              A Propos
             </p>
             <p
-              className={`hover:text-primary text-navText font-[600] cursor-pointer flex items-center gap-2`}
+              className={`hover:text-white text-navText font-[600] cursor-pointer flex items-center gap-2`}
             >
-              Bookings
+              Contact
             </p>
 
             <Link
               href="/auth/login"
-              className="hover:text-primary text-navText font-[600] cursor-pointer flex items-center gap-2 "
+              className="hover:text-white text-navText font-[600] cursor-pointer flex items-center gap-2 "
             >
               Login
             </Link>
@@ -65,12 +65,12 @@ function NavBar() {
       {/* MOBILE */}
       <div
         className={` block lg:hidden shadow-sm  fixed top-0 w-full z-[999]   py-4 animate-in fade-in zoom-in  ${
-          menu ? " bg-primary py-2" : "bg-white"
+          menu ? " bg-white py-2" : "bg-white"
         } `}
       >
         <div className="flex justify-between mx-[10px]">
           <div className="flex gap-[50px] text-[16px] items-center select-none">
-            <img src="/images/logo.png" alt="logo" className="w-[7rem]" />
+            <img src="/images/logo.png" alt="logo" className="w-[6rem]" />
           </div>
           <div className="flex items-center gap-[40px]">
             {menu ? (
@@ -93,36 +93,36 @@ function NavBar() {
             <div className="flex flex-col gap-8 mt-8 mx-4 ">
               <div className="flex gap-[20px] xl:gap-[50px] text-[16px] flex-col select-none ">
                 <p
-                  className={`hover:text-white text-navText font-[600] cursor-pointer flex items-center gap-2`}
+                  className={`hover:text-primary text-navText font-[600] cursor-pointer flex items-center gap-2`}
                 >
-                  Destinations
+                  Acceuil
                 </p>
                 <p
-                  className={`hover:text-white text-navText font-[600] cursor-pointer flex items-center gap-2`}
+                  className={`hover:text-primary text-navText font-[600] cursor-pointer flex items-center gap-2`}
                 >
-                  Hotels
+                  Services
                 </p>
                 <p
-                  className={`hover:text-white text-navText font-[600] cursor-pointer flex items-center gap-2`}
+                  className={`hover:text-primary text-navText font-[600] cursor-pointer flex items-center gap-2`}
                 >
-                  Flights
+                  A Propos
                 </p>
                 <p
-                  className={`hover:text-white text-navText font-[600] cursor-pointer flex items-center gap-2`}
+                  className={`hover:text-primary text-navText font-[600] cursor-pointer flex items-center gap-2`}
                 >
-                  Bookings
+                  Contact
                 </p>
 
                 <Link
                   href="/auth/login"
-                  className="hover:text-white text-navText font-[600] cursor-pointer flex items-center gap-2 "
+                  className="hover:text-primary text-navText font-[600] cursor-pointer flex items-center gap-2 "
                 >
                   Login
                 </Link>
 
                 <MainButton
                   text="Sign up"
-                  classes="bg-secondary hover:bg-secondary text-navText font-[600] shadow-none rounded-normal border border-none hover:text-white"
+                  classes="bg-primary hover:bg-secondary text-navText font-[600] shadow-none rounded-normal border border-none hover:text-white"
                 />
 
                 <div className="flex gap-2 items-center cursor-pointer">

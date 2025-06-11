@@ -10,9 +10,9 @@ function HeroSection() {
         </p>
         <div className="flex flex-col">
           <div className="volkhov font-[700] text-[3rem] md:text-[4.73756rem] leading-large inline-flex text-lightBlue">
-            Travel,
+            Fear less,
             <div className="flex  flex-col">
-              <span className="ml-8 z-10">enjoy</span>
+              <span className="ml-8 z-10">Dare more,</span>
               <img
                 src="/images/stylish-underline.png"
                 alt="stylish underline"
@@ -22,14 +22,12 @@ function HeroSection() {
           </div>
 
           <p className="volkhov font-[700] text-[3rem] md:text-[4.73756rem] leading-large inline-flex text-lightBlue">
-            and live a new and full life
+            Escape routine,And write your story.
           </p>
         </div>
 
         <p className="my-[1.6rem] font-bold leading-[1.692rem] text-lightGray text-[1rem]">
-          Built Wicket longer admire do barton vanity itself do in it. Preferred
-          to sportsmen it engrossed listening. Park gate sell they west hard for
-          the.
+          Journeys were not merely taken but lived, where maps folded into memories and distant lands stirred the soul. To wander was not to escape, but to arrive— 
         </p>
 
         <div className="flex gap-6 items-center ">

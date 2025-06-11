@@ -62,7 +62,7 @@ const MainButton = forwardRef<HTMLButtonElement, MainButtonProps>(
       <Button
         form={form}
         className={`${
-          isSecondaryVariant ? " text-white  bg-secondary" : "bg-primary"
+          isSecondaryVariant ? " text-white  bg-primary" : "bg-secondary"
         } text-white shadow-xl ${propWidth} md:${propWidth}  select-none rounded-[0.625rem] hover:opacity-90 ${variant_hover} ${size_height} ${classes} ${
           isGradient ? "red-gradient" : ""
         }`}
