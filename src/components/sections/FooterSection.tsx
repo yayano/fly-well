@@ -59,7 +59,11 @@ function FooterSection() {
         <div className="flex flex-col gap-4 items-center">
           <div className="flex gap-4 items-center">
             <img src="/images/facebook-icon.png" alt="social icon" />
+            <img src="/images/facebook-icon.png" alt="social icon" />
+            <img src="/images/facebook-icon.png" alt="social icon" />
+            <img src="/images/facebook-icon.png" alt="social icon" />
             <img src="/images/instagram-icon.png" alt="social icon" />
+            
             <img src="/images/x-icon.png" alt="social icon" />
           </div>
           <p className="text-lightGray font-[500] text-[1.25rem]">
@@ -107,7 +111,7 @@ function FooterSection() {
         </div>
       </div>
       <p className="my-[5.25rem] text-lightGray text-[0.875rem] font-[600] flex justify-center">
-        All rights reserved@jadoo.co
+        All rights elmakina@yaya.com
       </p>
     </section>
   );

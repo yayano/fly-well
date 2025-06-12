@@ -10,9 +10,13 @@ function NavBar() {
   const toggleMenu = () => {
     setMenu(!menu);
   };
+const scrollToSection = (id: string) => {
+  const element = document.getElementById(id)
+  element?.scrollIntoView({ behavior: "smooth"});
+};
 
   return (
-    <div className="md:sticky md:top-0   md:shadow-none z-20 ">
+    <div className="md:sticky md:top-0   md:shadow-none z-20  backdrop-filter backdrop-blur-xl ">
       {/* DESKTOP */}
       <div className=" hidden lg:block animate-in fade-in zoom-in  p-4 ">
         <div className="flex justify-between items-center">
@@ -22,21 +26,25 @@ function NavBar() {
           <div className="flex gap-[20px] xl:gap-[50px] text-[16px] items-center select-none">
             <p
               className={`hover:text-primary text-navText font-[600] cursor-pointer flex items-center gap-2`}
+              onClick={()=>scrollToSection('acceuil')}
             >
               Acceuil
             </p>
             <p
               className={`hover:text-primary text-navText font-[600] cursor-pointer flex items-center gap-2`}
+              onClick={()=>scrollToSection('services')}
             >
               Services
             </p>
             <p
               className={`hover:text-white text-navText font-[600] cursor-pointer flex items-center gap-2`}
+              onClick={()=>scrollToSection('book')}
             >
-              A Propos
+              Booking
             </p>
             <p
               className={`hover:text-white text-navText font-[600] cursor-pointer flex items-center gap-2`}
+              onClick={()=>scrollToSection('contact')}
             >
               Contact
             </p>

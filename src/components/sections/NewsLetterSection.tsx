@@ -4,11 +4,11 @@ import MainButton from "../common/MainButton";
 
 function NewsLetterSection() {
   return (
-    <div className="bg-[#DFD7F9] p-[4rem] rounded-[1.25rem] rounded-tl-extraLarge relative lg:-mt-[10rem]">
+    <div className="bg-primary p-[4rem] rounded-[1.25rem] rounded-tl-extraLarge relative lg:-mt-[10rem]" id="contact">
       <div className="z-20">
-        <p className="text-lightGray text-[1.5rem] font-[600] text-center mb-[2.63rem]">
+        <p className="text-title text-[1.5rem] font-[600] text-center mb-[2.63rem]">
           Subscribe to get information, latest news and other{" "}
-          <br className="hidden md:block" /> interesting offers about Jadoo
+          <br className="hidden md:block" /> interesting offers about wellfly
         </p>
 
         <div className="flex justify-between flex-col md:flex-row items-center gap-8">

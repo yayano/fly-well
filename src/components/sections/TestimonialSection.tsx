@@ -5,17 +5,17 @@ function TestimonialSection() {
   const reviews = [
     {
       id: 0,
-      imageUrl: "/images/mike.png",
-      reviewerName: "Mike taylor",
-      position: "Lahore, Pakistan",
+      imageUrl: "/images/yaya.png",
+      reviewerName: "Boussetta Yahia",
+      position: "algiers, Algeria",
       review:
-        "On the Windows talking painted pasture yet its express parties use. Sure last upon he same as knew next. Of believed or diverted no.",
+        "What really stood out was their attention to detail and genuine care about making the trip special. Thanks to them, I had a smooth, enjoyable, and unforgettable experience.",
     },
     {
       id: 2,
       imageUrl: "/images/mike.png",
-      reviewerName: "Chris Thomas",
-      position: "CEO of Red Button",
+      reviewerName: "Boussetta Yahia",
+      position: "Web developer",
       review:
         "On the Windows talking painted pasture yet its express parties use. Sure last upon he same as knew next. Of believed or diverted no.",
     },

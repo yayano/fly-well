@@ -25,12 +25,12 @@
      inkscape:deskcolor="#d1d1d1"
      showgrid="false"
      inkscape:zoom="16.9375"
-     inkscape:cx="6.5830258"
+     inkscape:cx="6.5535055"
      inkscape:cy="16"
-     inkscape:window-width="1366"
-     inkscape:window-height="697"
-     inkscape:window-x="1672"
-     inkscape:window-y="138"
+     inkscape:window-width="1680"
+     inkscape:window-height="979"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
      inkscape:window-maximized="1"
      inkscape:current-layer="svg188" />
   <path
@@ -39,5 +39,5 @@
      stroke-width="1.5"
      stroke-linecap="round"
      id="path186"
-     style="fill:#00ff00;stroke:#2ca05a" />
+     style="fill:#47a394;stroke:#47a394;fill-opacity:1;stroke-opacity:1" />
 </svg>

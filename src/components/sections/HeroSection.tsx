@@ -3,7 +3,7 @@ import MainButton from "../common/MainButton";
 
 function HeroSection() {
   return (
-    <section className="flex justify-between items-center mt-16 md:z-[9999]">
+    <section className="flex justify-between items-center mt-16 md:z-[9999]" id="acceuil">
       <div className="pt-32 md:pt-4">
         <p className="text-[1.128rem] font-[700] text-primary uppercase mb-4">
           Best Destinations around the world
@@ -34,15 +34,15 @@ function HeroSection() {
           <div>
             <MainButton
               text="Find out more"
-              classes="bg-secondary text-white font-[600] shadow-none rounded-[0.564rem] border-none hover:bg-secondary  w-[9.58788rem] h-[3rem]"
+              classes="bg-title text-white font-[600] shadow-none rounded-[0.564rem] border-none hover:bg-secondary  w-[9.58788rem] h-[3rem]"
             />
           </div>
-          <div className="flex items-center mt-6 hover:cursor-pointer">
+          <div className="flex items-center mt-6 hover:cursor-pointer hover:translate-x-1 transition-all">
             <img
               src="/images/play-shadow.png"
               alt="rounded play icon with shadow"
             />
-            <p className="text-lightGrayAlt -mt-6">Play Demo</p>
+            <p className="text-title -mt-6 ">Play Demo</p>
           </div>
         </div>
       </div>
